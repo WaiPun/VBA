@@ -1,0 +1,6 @@
+' Create a button for printing current worksheet as a PDF
+Private Sub CommandButton_Click()
+ActiveWorksheet.ExportAsFixedFormat Type:=xlTypePDF, _
+Filename:=ThisWorkbook.path & "\filename"
+ActiveWorkbook.Save
+End Sub 
