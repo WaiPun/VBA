@@ -1,0 +1,60 @@
+Sub download_KRW_AAA()
+
+    Dim objIE As InternetExplorer
+    Set objIE = New InternetExplorer
+    objIE.Visible = True
+    objIE.navigate "http://www.kofiabond.or.kr/websquare/websquare.html?w2xPath=/xml/eng/startest/ENGBndSrtPrcROPTab1.xml&amp;divisionId=MBIS01905010000000&amp;divisionNm=By%2520Date&amp;tabIdx=1&amp;w2xHome=/xml/eng/&amp;w2xDocumentRoot="
+
+    
+    On Error Resume Next
+    Do Until Not x Is Nothing
+    Set x = objIE.document.all.Item("srchDt_input")
+    Loop
+    Set x = Nothing
+    On Error GoTo 0
+    Application.Wait (Now + TimeValue("0:00:02"))
+        
+    objIE.document.all.Item("srchDt_input").Value = 20180629
+    objIE.document.all.Item("srchDt_input").Click
+    objIE.document.all.Item("image1").Click
+    Application.Wait (Now + TimeValue("0:00:02"))
+    
+    On Error Resume Next
+    Do Until Not x Is Nothing
+    Set x = objIE.document.all.Item("grpGrid11")
+    Loop
+    Set x = Nothing
+    On Error GoTo 0
+    
+    For Header = 0 To 3
+        jq = "grdMain_head_" & Header + 1
+        tablevalue = objIE.document.all.Item(jq).innerText
+        Sheets("Export").Range("A1").Cells(1, Header + 1).Value = tablevalue
+    Next Header
+    
+    For Header = 0 To 11
+        jq = "grdMain_h_" & Header
+        tablevalue = objIE.document.all.Item(jq).innerText
+        Sheets("Export").Range("A1").Cells(1, Header + 5).Value = tablevalue
+    Next Header
+    
+    
+    
+    
+    For r = 0 To 41
+    For c = 0 To 18
+        jq = "grdMain_cell_" & r & "_" & c
+        tablevalue = objIE.document.all.Item(jq).innerText
+        Sheets("Export").Range("A1").Cells(r + 2, c + 1).Value = tablevalue
+    Next c
+    Next r
+    
+    
+    
+    objIE.Quit
+
+
+End Sub
+
+
+
