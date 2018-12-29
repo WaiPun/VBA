@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrapGetPathCopied", "DrapGetPathCopied\DrapGetPathCopied.csproj", "{DA101B39-EEA7-4FDC-BCE6-EEC70477B5F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA101B39-EEA7-4FDC-BCE6-EEC70477B5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA101B39-EEA7-4FDC-BCE6-EEC70477B5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA101B39-EEA7-4FDC-BCE6-EEC70477B5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA101B39-EEA7-4FDC-BCE6-EEC70477B5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B215C644-C36D-44C4-9ED2-81B0ACFF5B84}
+	EndGlobalSection
+EndGlobal

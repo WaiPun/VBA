@@ -1,0 +1,10 @@
+c:\users\waipu\source\repos\DrapGetPathCopied\DrapGetPathCopied\bin\Debug\DrapGetPathCopied.exe.config
+c:\users\waipu\source\repos\DrapGetPathCopied\DrapGetPathCopied\bin\Debug\DrapGetPathCopied.exe
+c:\users\waipu\source\repos\DrapGetPathCopied\DrapGetPathCopied\bin\Debug\DrapGetPathCopied.pdb
+c:\users\waipu\source\repos\DrapGetPathCopied\DrapGetPathCopied\obj\Debug\DrapGetPathCopied.csprojAssemblyReference.cache
+c:\users\waipu\source\repos\DrapGetPathCopied\DrapGetPathCopied\obj\Debug\DrapGetPathCopied.Form1.resources
+c:\users\waipu\source\repos\DrapGetPathCopied\DrapGetPathCopied\obj\Debug\DrapGetPathCopied.Properties.Resources.resources
+c:\users\waipu\source\repos\DrapGetPathCopied\DrapGetPathCopied\obj\Debug\DrapGetPathCopied.csproj.GenerateResource.cache
+c:\users\waipu\source\repos\DrapGetPathCopied\DrapGetPathCopied\obj\Debug\DrapGetPathCopied.csproj.CoreCompileInputs.cache
+c:\users\waipu\source\repos\DrapGetPathCopied\DrapGetPathCopied\obj\Debug\DrapGetPathCopied.exe
+c:\users\waipu\source\repos\DrapGetPathCopied\DrapGetPathCopied\obj\Debug\DrapGetPathCopied.pdb
